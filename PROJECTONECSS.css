@@ -1,0 +1,33 @@
+html{
+      background-color: #D5F3FE;
+      float: left;
+
+        .neuton-regular-italic {;
+            font-family: "Neuton", serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 30px;
+          }
+          .neuton-regular-italic1{
+            font-family: "Neuton", serif;
+            font-weight: 100;
+            font-style: italic;
+            font-weight: 50px;
+          }
+          .wwe{
+            width: 400px;
+            position:relative;
+          }
+          .column{
+            float:left;
+            width:50%;
+            height:400px;
+          }
+          .container::after{
+            content:"";
+            display:block;
+            clear: both;
+          }
+        }   
+  
+        
